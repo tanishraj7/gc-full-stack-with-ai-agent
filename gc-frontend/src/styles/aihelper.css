@@ -1,0 +1,73 @@
+
+#ai-helper-page {
+  /* Make the page take full viewport height */
+  min-height: 100vh;
+  /* Use flexbox to center its content horizontally and vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f9f4; /* Or your preferred background */
+}
+
+#ai-helper-page .ai-helper-wrapper {
+  /* Remove align-items: start; if you used it earlier */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  /* Remove padding if needed for tighter centering */
+  padding: 0;
+}
+
+#ai-helper-page .ai-helper-container h2 {
+  font-size: 2.2rem;
+  color: #00a000;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+#ai-helper-page .ai-helper-container h4 {
+  color: #00a000;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+#ai-helper-page .ai-helper-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+#ai-helper-page .ai-helper-container input,
+#ai-helper-page .ai-helper-container select {
+  font-size: 1.1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+#ai-helper-page .ai-helper-container button {
+  background-color: #00a000;
+  color: white;
+  font-weight: 600;
+  padding: 1rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#ai-helper-page .ai-helper-container button:hover {
+  background-color: #008000;
+}
+
+#ai-helper-page .recommendation-box {
+  margin-top: 2.5rem;
+  background: #f0fff0;
+  padding: 1.5rem;
+  border-left: 6px solid #00a000;
+  border-radius: 10px;
+}

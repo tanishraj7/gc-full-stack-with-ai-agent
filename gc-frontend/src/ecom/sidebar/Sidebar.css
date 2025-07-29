@@ -1,0 +1,32 @@
+/* .main-logo{
+    width: 3rem;
+    height: 3rem;
+    color: rgb(5, 180, 25);
+} */
+
+.sidebar {
+    width: 15%;
+    height: 100vh;    /* Ensure it fills the screen */
+    position: fixed;
+    top: 0;           /* Stick to the very top */
+    left: 0;
+    background: #fff; /* Add background so it masks underneath */
+    display: flex;
+    border-right: 2px solid silver;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1000;    /* Ensure it is above main content */
+    padding-top: 150px;    /* Same as navbar height */
+}
+/*
+.sidebar-title{
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+*/
+/* .logo-container{
+    margin-bottom: 4rem;
+    margin-top: 1.2rem;
+} */

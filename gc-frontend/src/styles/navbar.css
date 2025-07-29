@@ -1,0 +1,27 @@
+#auth-page .auth-navbar {
+  background-color:  rgb(5, 180, 25);
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 8px 8px 0 0;
+}
+
+#auth-page .auth-navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+#auth-page .auth-navbar a:hover {
+  color: #6a0dad;
+  text-decoration: underline;
+}
+
+#auth-page .subtitle{
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+}
