@@ -4,7 +4,7 @@ Ginnis Cart is a modern full stack e-commerce web application with an integrated
 
 ## ✨ Tech Stack
 
-- **Backend:** Python, Flask, Langchain, Google Gemini (LLM)
+- **Backend:** Python, Flask, LangGraph, Google Gemini (LLM)
 - **Frontend:** React, JavaScript, HTML, CSS
 - **Database:** MongoDB
 
